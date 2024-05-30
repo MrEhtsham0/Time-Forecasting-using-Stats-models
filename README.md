@@ -1,19 +1,9 @@
 # Time Series Forecasting with ARIMA and SARIMA
 
-Table of Contents
-	Introduction
-	Features
-	Installation
-	Usage
-	Model Explanation
-	Results
-	Contributing
-	License
-	Contact
-Introduction
+
 This repository contains a project focused on time series forecasting using ARIMA and SARIMA models implemented with the statsmodels library in Python. The primary objective is to predict future values of a given time series based on historical data.
 
-Features
+
 	Data preprocessing and visualization
 	Model building and fitting using ARIMA and SARIMA
 	Model evaluation with metrics such as AIC, BIC, and RMSE
@@ -25,9 +15,8 @@ Model Explanation
 ARIMA (AutoRegressive Integrated Moving Average)
 ARIMA is a popular statistical method for time series forecasting. It combines three components:
 
-AR (AutoRegressive): Model that uses the dependent relationship between an observation and some number of lagged observations.
-I (Integrated): Uses differencing of raw observations to make the time series stationary.
-MA (Moving Average): Model that uses dependency between an observation and a residual error from a moving average model applied to lagged observations.
+AR (AutoRegressive): Model that uses the dependent relationship between an observation and some number of lagged observations.I (Integrated): Uses differencing of raw observations to make the time series stationary.MA (Moving Average): Model that uses dependency between an observation and a residual error from a moving average model applied to lagged observations.
+
 SARIMA (Seasonal ARIMA)
 SARIMA extends ARIMA by explicitly supporting univariate time series data with a seasonal component. It includes:
 
